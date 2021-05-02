@@ -1,0 +1,113 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+  /* background-color: azure; */
+}
+
+
+/* footer p {
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+} */
+
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+
+.main_div {
+  background: #ffffff;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main_note {
+  width: 25%;
+  background: #f4eee8;
+  height: 20vh;
+  box-shadow: 5px 5px 25px -2px rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.note {
+  width: 20%;
+  background: #f4eee8;
+  height: 20vh;
+  box-shadow: 5px 5px 25px -2px rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+input {
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  border: 60%;
+  outline: none;
+  color: #333333;
+  padding-left: 10px;
+}
+
+textarea {
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  border: 60%;
+  outline: none;
+  color: #333333;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.MuiButton-root {
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  bottom: -55px;
+  left: 360px;
+  cursor: pointer;
+  background: #fff !important;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+  border-radius: 50%;
+}
+
+.MuiButton-root .plus_sign {
+  font-size: 45px !important;
+  font-weight: 900;
+  color: #f39189;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent;
+}
+
+.MuiButton-root :hover {
+  background: #f39189 !important;
+  border-radius: 50%;
+  color: #ffffff !important;
+}
+
+.MuiButton-root .deleteIcon {
+  font-size: 45px !important;
+  font-weight: 900;
+  color: #f39189;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent;
+}
